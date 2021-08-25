@@ -12,4 +12,13 @@ public class SalesEmployee extends Employee {
         this.commission = 0;
         this.netSalary = 0;
     }
+
+    @Override
+    public String toString() {
+        return super.toString() + "\nSalesEmployee{" +
+                "sales=" + sales +
+                ", commission=" + commission +
+                ", netSalary=" + netSalary +
+                '}';
+    }
 }
